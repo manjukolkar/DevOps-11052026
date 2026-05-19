@@ -6,3 +6,4 @@ Git demonstration!!!!
 Git demonstration!!!!
 Git demonstration!!!!
 Git demonstration!!!!
+stash example
