@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 branch delete demo
-=======
 Without-password-check
 Without-password-check
 Without-password-check
 Without-password-check
 Without-password-check
->>>>>>> 71544c0 (Added few lines in test4.txt)
