@@ -2,19 +2,29 @@ pipeline{
     agent any
 
     stages{
-        stage('first stage title'){
+        stage('hostname'){
             steps{
-                echo "First stage"
+                sh 'hostname'
             }
         }
-        stage('Second stage'){
+        stage('Memory usage'){
             steps{
-                echo "Second stage"
+                sh 'free -h'
             }
         }
-        stage('Third stage'){
+        stage('disk usage'){
             steps{
-                echo "Third stage"
+                sh 'du -sh'
+            }
+        }
+        stage('cpu details'){
+            steps{
+                sh 'lscpu'
+            }
+        }
+        stage('Host Ip'){
+            steps{
+                sh 'hostname -I'
             }
         }
     }
