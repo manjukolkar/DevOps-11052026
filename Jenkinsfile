@@ -14,7 +14,7 @@ pipeline{
         }
         stage('disk usage'){
             steps{
-                sh 'du -sh'
+                sh 'df -kh'
             }
         }
         stage('cpu details'){
